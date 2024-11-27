@@ -1,0 +1,40 @@
+header{
+    background-color: red;
+    border-bottom: blue 5px solid;
+    padding: 10px;
+    
+}
+img{
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:relative;
+    left: 10%;
+}
+.parent{
+    border: 3PX reD solid;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 30%;
+
+}
+.child{
+    position: absolute;
+    border: 3PX solid blue;
+    left: 20%;
+    
+}
+.post-fixed{
+    position: fixed;
+    right: 0px;
+    width: 150px;
+    z-index: 1;
+}
+.pos-sticky{
+    border: 3px blue solid;
+    background-color: grey;
+    position: sticky;
+    top: 0%;
+}
